@@ -1,0 +1,74 @@
+<ion-navbar *navbar>
+  <button menuToggle>
+    <ion-icon name="menu"></ion-icon>
+  </button>
+  <ion-title >Getting Started if title is too long to space, what will happen?gCard Header if long if longCard Header if long if longCard Header if lgCard Header if long if longCard Header if long if longCard Header if l</ion-title>
+</ion-navbar>
+
+
+<ion-content padding class="getting-started">
+  
+  <ion-card>
+    <ion-card-header>
+      무엇이든 말해보세요~
+    </ion-card-header>
+    <ion-card-content>      
+      <p><ion-icon name="heart"></ion-icon>123</p>
+    </ion-card-content>
+  </ion-card>
+    
+  <ion-list>
+    <ion-list-header>이야기들</ion-list-header>      
+    <ion-item *ngFor="#bamboo of bamboos">
+      <h2>{{bamboo.text}}</h2>
+      <p><ion-icon name="heart"></ion-icon>45</p>  
+    </ion-item>
+      
+  </ion-list>
+    
+  
+  <ion-item>
+    <ion-label floating>KEY</ion-label>
+    <ion-input [(ngModel)]="key" type="text"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label floating>VAL</ion-label>
+    <ion-input [(ngModel)]="val" type="text"></ion-input>
+  </ion-item>
+  <button (click)="sendFirebase()">send firebase</button>
+  <ion-item>
+    <ion-label floating>MSG</ion-label>
+    <ion-input [(ngModel)]="msg" type="text"></ion-input>
+  </ion-item>
+
+  log {{text}}
+
+  <button (click)="makeGetRequest()">GET Request</button>
+  <button (click)="makePostRequest()">POST Request</button> gg
+
+
+  <ion-list>
+    <ion-item *ngFor="#item of items">
+      Hello, {{item.name}}! AND {{item.text}}
+    </ion-item>
+  </ion-list>
+
+  <ion-card>
+    <ion-card-header style="white-space: normal;">
+      Card Header if long if longCard Header if long if longCard Header if long if longCard Header if long if longCard Header if long if longCard Header if long if long
+    </ion-card-header>
+    <ion-card-content>
+      <!-- Add card content here! -->
+      Card Header if long if longCard Header if long if longCard Header if long if longCard Header if long if longCard Header if long if longCard Header if long if long
+    </ion-card-content>
+  </ion-card>
+
+  <h3>Getting Started</h3>
+  <p>
+    Get it started!
+  </p>
+  <p>
+    <button primary menuToggle>Toggle Menu</button>
+  </p>
+
+</ion-content>

@@ -1,0 +1,30 @@
+.shop-overseas {
+    
+    h3 {        
+        white-space: normal;
+        line-height: 150%;
+    }
+    
+    .soldOut {
+        color:#ACACAC;
+    }
+    
+    button {
+        padding : 5px;
+    }
+    
+    p {
+        float: right;       
+        font-size:70%; 
+        white-space: normal; 
+    }
+    
+    img.small {
+        width:80px; 
+        height:80px; 
+        border:1px; 
+        border-style: groove;
+    }
+    
+    
+}

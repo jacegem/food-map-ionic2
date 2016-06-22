@@ -1,0 +1,54 @@
+<!--
+  Generated template for the BambooPage page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-navbar dark *navbar >
+  <button menuToggle>
+    <ion-icon name="menu"></ion-icon>
+  </button>
+  <ion-title>bamboo</ion-title>
+   <ion-buttons end>
+        <button (click)="add()"><ion-icon name="add">add</ion-icon></button>
+    </ion-buttons>
+</ion-navbar>
+
+<ion-content padding class="bamboo">
+  <ion-card>
+    <ion-card-header>
+      {{text}}
+    </ion-card-header>
+    <ion-card-content>      
+      <ion-buttons end>       
+        <p><ion-icon name="chatboxes"></ion-icon> {{subcount}}</p>
+      </ion-buttons>
+    </ion-card-content>
+  </ion-card>
+
+
+    <!--<ion-item>
+      <ion-label stacked>Message</ion-label>
+      <ion-textarea class="expanding" [(ngModel)]="text" (keypress)="eventHandler($event)"></ion-textarea>      
+    </ion-item>-->
+    
+    
+
+  <ion-list>
+    <ion-list-header>Story</ion-list-header>
+    <ion-item-sliding *ngFor="#bamboo of bamboos">
+       <button ion-item  (click)="viewBamboo(bamboo)">
+          {{bamboo.text}}
+          <!--<p>{{item.description}}</p>-->
+            <p style="float:right">
+              <ion-icon name="chatboxes"></ion-icon> {{bamboo.subcount}}</p>
+        </button>
+              
+      <!--<h2>{{bamboo.text}}</h2>-->
+      <!--<p>
+        <ion-icon name="heart"></ion-icon>45</p>-->
+    </ion-item-sliding>
+  </ion-list>
+
+
+</ion-content>
