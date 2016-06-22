@@ -2,9 +2,8 @@ import {App, IonicApp, Platform} from 'ionic-angular';
 import {StatusBar} from 'ionic-native';
 import {GettingStartedPage} from './pages/getting-started/getting-started';
 import {ListPage} from './pages/list/list';
-import {BambooPage} from './pages/bamboo/bamboo';
-import {ShopOverseasPage} from './pages/shop-overseas/shop-overseas';
 import {SampleMapPage} from './pages/sample-map/sample-map';
+import {FoodMapPage} from './pages/food-map/food-map';
 
 @App({
   templateUrl: 'build/app.html',
@@ -23,15 +22,14 @@ class MyApp {
 
     // used for an example of ngFor and navigation
     this.pages = [
-      { title: '샘플 맵', component: SampleMapPage },
-      { title: '해외구매', component: ShopOverseasPage },
-      { title: 'Bamboo', component: BambooPage },
+      { title: '맛집 지도', component: FoodMapPage },
+      { title: '샘플 맵', component: SampleMapPage },      
       { title: 'Getting Started', component: GettingStartedPage },
       { title: 'List', component: ListPage }
     ];
 
     //this.rootPage = ShopOverseasPage;
-    this.rootPage = ShopOverseasPage;
+    this.rootPage = FoodMapPage;
 
     this.addAdMob();
   }
