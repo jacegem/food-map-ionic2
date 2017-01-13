@@ -1,5 +1,5 @@
 # Summary
 
 * [Introduction](README.md)
-* [article1](article1.md)
+* [\/doc\/article1](docarticle1.md)
 
