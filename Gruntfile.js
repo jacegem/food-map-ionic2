@@ -8,15 +8,15 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-gh-pages');
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-http-server');
-    //grunt.loadNpmTasks('grunt-gitbook-install');
+    grunt.loadNpmTasks('grunt-gitbook-install');
 
     grunt.initConfig({
-        // 'gitbook-install':{
-        //         input: "./",
-        //         plugins: [
-        //            "ad"                    
-        //         ]
-        //     },
+        'gitbook-install':{
+            input: "./",
+            plugins: [
+                   "ad"                    
+            ]
+        },
 
         'gitbook': {
             development: {
