@@ -1,10 +1,10 @@
 {
     "title": "TODAY I LEARNED",
-    "plugins": ["ad"],
+    "plugins": ["ad"],        
     "pluginsConfig": {
         "ad": {
             "contentTop": "TOP",
             "contentBottom": "BOTTOM"
-        }
+        }        
     }
 }
