@@ -14,7 +14,8 @@ module.exports = function (grunt) {
         'gitbook-install':{
             input: "./",
             plugins: [
-                   "ad"                    
+                   "ad"       
+                   , "adsense"             
             ]
         },
 
