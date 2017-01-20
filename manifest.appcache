@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# Revision 1484893223683
+# Revision 1484893763271
 
 CACHE:
 index.html
@@ -43,6 +43,8 @@ gitbook\print.css
 gitbook\style.css
 gitbook\plugins\gitbook-plugin-mathjax\plugin.js
 gitbook\plugins\gitbook-plugin-mixpanel\plugin.js
+gitbook\plugins\gitbook-plugin-ad\plugin.css
+gitbook\plugins\gitbook-plugin-ad\plugin.js
 
 NETWORK:
 *

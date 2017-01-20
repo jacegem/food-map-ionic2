@@ -1,5 +1,6 @@
 {
     "title": "TODAY I LEARNED",
+    "plugins": ["ad"],
     "pluginsConfig": {
         "ad": {
             "contentTop": "TOP",
