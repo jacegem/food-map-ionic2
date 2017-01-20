@@ -1,0 +1,9 @@
+{
+
+    "pluginsConfig": {
+        "ad": {
+            "contentTop": "%3Cscript%20async%20src%3D%22%2F%2Fpagead2.googlesyndication.com%2Fpagead%2Fjs%2Fadsbygoogle.js%22%3E%3C%2Fscript%3E%0A%3C!--%20%EB%B0%98%EC%9D%91%ED%98%95%20--%3E%0A%3Cins%20class%3D%22adsbygoogle%22%0A%20%20%20%20%20style%3D%22display%3Ablock%22%0A%20%20%20%20%20data-ad-client%3D%22ca-pub-9184373525576918%22%0A%20%20%20%20%20data-ad-slot%3D%221959714988%22%0A%20%20%20%20%20data-ad-format%3D%22auto%22%3E%3C%2Fins%3E%0A%3Cscript%3E%0A(adsbygoogle%20%3D%20window.adsbygoogle%20%7C%7C%20%5B%5D).push(%7B%7D)%3B%0A%3C%2Fscript%3E",
+            "contentBottom": "%3Cscript%20async%20src%3D%22%2F%2Fpagead2.googlesyndication.com%2Fpagead%2Fjs%2Fadsbygoogle.js%22%3E%3C%2Fscript%3E%0A%3C!--%20%EB%B0%98%EC%9D%91%ED%98%95%20--%3E%0A%3Cins%20class%3D%22adsbygoogle%22%0A%20%20%20%20%20style%3D%22display%3Ablock%22%0A%20%20%20%20%20data-ad-client%3D%22ca-pub-9184373525576918%22%0A%20%20%20%20%20data-ad-slot%3D%221959714988%22%0A%20%20%20%20%20data-ad-format%3D%22auto%22%3E%3C%2Fins%3E%0A%3Cscript%3E%0A(adsbygoogle%20%3D%20window.adsbygoogle%20%7C%7C%20%5B%5D).push(%7B%7D)%3B%0A%3C%2Fscript%3E"
+        }
+    }
+}
