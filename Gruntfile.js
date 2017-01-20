@@ -1,12 +1,23 @@
 var path = require("path");
+// var realFs = require('fs')
+// var gracefulFs = require('graceful-fs')
+// gracefulFs.gracefulify(realFs)
 
 module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-gitbook');
     grunt.loadNpmTasks('grunt-gh-pages');
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-http-server');
+    //grunt.loadNpmTasks('grunt-gitbook-install');
 
     grunt.initConfig({
+        // 'gitbook-install':{
+        //         input: "./",
+        //         plugins: [
+        //            "ad"                    
+        //         ]
+        //     },
+
         'gitbook': {
             development: {
                 input: "./",
@@ -43,14 +54,17 @@ module.exports = function (grunt) {
         }
     });
 
-    grunt.registerTask('test', [
+    grunt.registerTask('test', [        
         'gitbook',
         'http-server'
     ]);
-    grunt.registerTask('publish', [
+    grunt.registerTask('publish', [        
         'gitbook',
         'gh-pages',
         'clean'
+    ]);
+    grunt.registerTask('install', [
+        'gitbook-install'
     ]);
     grunt.registerTask('default', 'gitbook');
 };

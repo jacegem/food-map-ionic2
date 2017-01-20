@@ -1,22 +1,24 @@
 {
-    "name": "gitbook_to_github",
-    "version": "0.0.1",
-    "description": "",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/jacegem/food-map-ionic2.git"
-    },
-    "author": "author_name <author@email.com>",
-    "license": "Apache 2",
-    "dependencies": {},
-    "devDependencies": {
-        "grunt": "~0.4.1",
-        "grunt-gitbook": "0.4.2",
-        "grunt-gh-pages": "0.9.1",
-        "grunt-contrib-clean": "~0.5.0",
-        "grunt-http-server": "0.0.4"
-    },
-    "peerDependencies": {
-        "grunt": "~0.4.1"
-    }
+  "name": "gitbook_to_github",
+  "version": "0.0.1",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jacegem/food-map-ionic2.git"
+  },
+  "author": "jace <jacegem@email.com>",
+  "license": "Apache 2",
+  "devDependencies": {
+    "gitbook-plugin-mathjax": "^1.1.2",
+    "graceful-fs": "^4.1.11",
+    "grunt": "~0.4.1",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-gh-pages": "0.9.1",
+    "grunt-gitbook": "0.4.2",
+    "grunt-gitbook-install": "^1.0.0",
+    "grunt-http-server": "0.0.4"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  }
 }
